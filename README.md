@@ -11,3 +11,4 @@ Coming soon:
 2. serviceWorker.js
 3. artists.html
 4. follies.html
+5. Original artwork to replace historical source images
