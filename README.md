@@ -12,3 +12,4 @@ Coming soon:
 3. artists.html
 4. follies.html
 5. Original artwork to replace historical source images
+6. Create splash page icon. png in Inkscape
