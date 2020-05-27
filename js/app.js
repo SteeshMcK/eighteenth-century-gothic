@@ -1,7 +1,7 @@
 const container = document.querySelector(".container")
 const authors = [
   { name: "Horace Walpole", image: "images/walpoleHorace.JPG", work: "The Castle of Otranto (1764)", link: "https://www.britannica.com/biography/Horace-Walpole" },
-  { name: "Clara Reeve", image: "images/clara-reeve.jpg" },
+  { name: "Clara Reeve", image: "images/reeveClara.JPG", work: "The Old English Baron (1777)", link: "https://en.wikipedia.org/wiki/Clara_Reeve" },
   { name: "Sophia Lee", image: "images/sophia-lee.jpg" },
   { name: "William Beckford", image: "images/william-beckford.jpg" },
   { name: "Charlotte Turner Smith", image: "images/charlotte-turner-smith.jpg" },
@@ -18,7 +18,7 @@ const showAuthors = () => {
                   <h1 class="card--title">${name}</h1>
                   <p>Most notable work: </p>
                   <p class="card--data">${work}</p>
-                  <a class="card--link" href=${link}>Explore</a>
+                  <a class="card--link" href=${link} target="blank">Explore</a>
                 </div>
                 `)
     )

@@ -7,7 +7,7 @@ const assets = [
   "/css/style.css",
   "/js/app.js",
   "/images/walpoleHorace.JPG",
-  "/images/clara-reeve.jpg",
+  "/images/reeveClara.JPG",
   "/images/sophia-lee.jpg",
   "/images/william-beckford.jpg",
   "/images/charlotte-turner-smith.jpg",
