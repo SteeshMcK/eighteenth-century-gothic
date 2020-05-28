@@ -26,3 +26,15 @@ const showAuthors = () => {
   }
   
   document.addEventListener("DOMContentLoaded", showAuthors)
+
+  // Check if serviceWorker is supported by current browser
+  if ("serviceWorker" in navigator) {
+    // "Listen" to page "load" event...
+    window.addEventListener("load", function() {
+      // to register service worker by passing name of file to navigator.serviceWorker.register()
+      navigator.serviceWorker
+        .register("/projects2020/PWA/eighteenth-century-gothic/serviceWorker.js")
+        .then(res => console.log("service worker registered"))
+        .catch(err => console.log("service worker not registered", err))
+    })
+  }
