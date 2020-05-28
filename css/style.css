@@ -117,12 +117,12 @@ li a:active {
   .card--data {
     font-weight: bold;
     font-style: italic;
-  }
+  } 
 
   .card--link {
     text-decoration: none;
-    background: #708090;
-    color: #fff;
+    background: #594c00;
+    color: #fffbe2;
     padding: 0.3rem 1rem;
     border-radius: 20px;
   }
