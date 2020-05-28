@@ -127,6 +127,10 @@ li a:active {
     border-radius: 20px;
   }
 
+  .card--link:hover {
+    background-color: #3b3300;
+  }
+
   footer {
     padding: 20px 0 20px 0;
     background-color: #594c00;    
