@@ -8,9 +8,9 @@ const architecture = [
   { name: "Ann Radcliffe", image: "images/ann-radcliffe.jpg" }
 ]
 
-const showAuthors = () => {
+const showArchitecture = () => {
     let output = ""
-    authors.forEach(
+    architecture.forEach(
       ({ name, image, work, link }) =>
         (output += `
                 <div class="card">
@@ -25,7 +25,7 @@ const showAuthors = () => {
     container.innerHTML = output
   }
   
-  document.addEventListener("DOMContentLoaded", showAuthors)
+  document.addEventListener("DOMContentLoaded", showArchitecture)
 
   // Check if serviceWorker is supported by current browser
   if ("serviceWorker" in navigator) {

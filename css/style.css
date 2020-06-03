@@ -77,7 +77,7 @@ li a:active {
   font-size: 2rem;
 }
 
-.container {
+.container, .container--architecture {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     grid-gap: 1rem;
